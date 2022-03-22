@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+    overflow-x: hidden;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("hero-image.jpg");
+    color: rgb(212, 147, 73);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+nav {
+    height: 100px;
+    background-color: rgb(212, 147, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    width: 700px;
+}
+
+nav ul li {
+    font-size: 25px;
+    color:rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    box-shadow: 3px 3px;
+}
+
+nav ul li:hover {
+    box-shadow: 0px 0px;
+    transition: box-shadow .1s ease-in;
+}
+
+main {
+    width: 70%;
+    display: flex;
+    margin: 50px auto;
+    row-gap: 100px;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#about-us-container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.about-us-card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 5px solid rgb(212, 147, 73);
+    border-bottom: 5px solid rgb(212, 147, 73);
+    padding: 10px 20px;
+}
+
+p {
+    color:rgba(0, 0, 0, 0.8)
+}
+
+img {
+    width: 200px;
+}
+
+#our-services-container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    row-gap: 20px;
+}
+
+.our-services-card {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    border-right: 3px solid rgb(212, 147, 73);
+    border-bottom: 3px solid rgb(212, 147, 73);
+    padding: 10px 20px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-content h3 {
+    margin: 0;
+}
+
+.our-staff {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("team.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: -300px;
+    margin-right: -300px;
+    padding: 50px 0px;
+}
+
+.our-staff h2 {
+    color: rgb(212, 147, 73);
+}
+
+#staff-member-container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    row-gap: 20px;
+}
+
+.staff-member-card {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    background-color: rgb(212, 147, 73);
+    width: 600px;
+    padding: 20px;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(212, 147, 73);
+}
